@@ -1,0 +1,4 @@
+# This script to help you run any bash script when the server is booting, usually happenes when you forgot root password
+
+#! /bin/bash
+echo "username:new_password" | chpasswd
